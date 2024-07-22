@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFHastaneOtomasyon.DoktorLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFHastaneOtomasyon"
+        mc:Ignorable="d"
+        Title="DoktorLogin" Height="350" Width="600">
+    <Grid>
+        <TextBox x:Name="doktoremail" HorizontalAlignment="Left" Height="25" Margin="136,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Height="30" Margin="47,54,0,0" VerticalAlignment="Top" Width="89"/>
+        <Label Content="Şifre:" HorizontalAlignment="Left" Height="30" Margin="47,113,0,0" VerticalAlignment="Top" Width="89"/>
+        <Image HorizontalAlignment="Left" Height="131" Margin="416,56,0,0" VerticalAlignment="Top" Width="123" Source="/doctor.png"/>
+        <Button Content="Giriş" HorizontalAlignment="Left" Height="30" Margin="256,168,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_1"/>
+        <Button Content="Geri Dön" HorizontalAlignment="Left" Height="24" Margin="459,228,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click"/>
+        <PasswordBox x:Name="doktorsifre" HorizontalAlignment="Left" Height="24" Margin="136,116,0,0" VerticalAlignment="Top" Width="200"/>
+
+    </Grid>
+</Window>

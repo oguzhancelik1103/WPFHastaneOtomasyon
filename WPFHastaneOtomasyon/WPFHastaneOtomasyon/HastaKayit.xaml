@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPFHastaneOtomasyon.HastaKayit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFHastaneOtomasyon"
+        mc:Ignorable="d"
+        Title="HastaKayit" Height="500" Width="700">
+    <Grid>
+        <TextBox x:Name="hastaemail" HorizontalAlignment="Left" Height="25" Margin="148,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="hastaad" HorizontalAlignment="Left" Height="25" Margin="148,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="hastasoyad" HorizontalAlignment="Left" Height="25" Margin="148,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <DatePicker x:Name="hastadogum" HorizontalAlignment="Left" Height="25" Margin="148,311,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Height="25" Margin="43,66,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Şifre:" HorizontalAlignment="Left" Height="26" Margin="43,112,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Ad:" HorizontalAlignment="Left" Height="25" Margin="43,164,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Soyad:" HorizontalAlignment="Left" Height="25" Margin="43,211,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Doğum Tarihi:" HorizontalAlignment="Left" Height="25" Margin="43,311,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="154" Margin="484,72,0,0" VerticalAlignment="Top" Width="162" Source="/critical.png"/>
+        <Button Content="Kayıt Ol" HorizontalAlignment="Center" Height="25" Margin="0,368,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_1"/>
+        <Button Content="Geri Dön" HorizontalAlignment="Left" Height="24" Margin="558,368,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click"/>
+        <TextBox x:Name="hastasifre" HorizontalAlignment="Left" Height="26" Margin="148,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="hastaadres" HorizontalAlignment="Left" Height="25" Margin="148,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Adres:" HorizontalAlignment="Left" Height="25" Margin="43,263,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPFHastaneOtomasyon.DoktorBilgiler"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFHastaneOtomasyon"
+        mc:Ignorable="d"
+        Title="DoktorBilgiler" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="doktoremail" HorizontalAlignment="Left" Height="24" Margin="327,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="doktorad" HorizontalAlignment="Left" Height="25" Margin="327,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="doktorsoyad" HorizontalAlignment="Left" Height="24" Margin="327,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="doktoruzmanlik" HorizontalAlignment="Left" Height="26" Margin="327,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Height="24" Margin="222,48,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Ad:" HorizontalAlignment="Left" Height="25" Margin="222,99,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Soyad:" HorizontalAlignment="Left" Height="24" Margin="222,144,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Uzmanlık:" HorizontalAlignment="Left" Height="26" Margin="222,192,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Güncelle" HorizontalAlignment="Left" Height="25" Margin="474,287,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_2"/>
+        <Menu HorizontalAlignment="Left" Height="339" Margin="10,23,0,0" VerticalAlignment="Top" Width="166"/>
+        <Button Content="Hasta Bilgileri" HorizontalAlignment="Left" Height="44" Margin="10,107,0,0" VerticalAlignment="Top" Width="166" Click="Button_Click_1"/>
+        <Button Content="Çıkış" HorizontalAlignment="Left" Height="44" Margin="10,304,0,0" VerticalAlignment="Top" Width="166" Click="Button_Click"/>
+        <Image HorizontalAlignment="Left" Height="134" Margin="624,67,0,0" VerticalAlignment="Top" Width="114" Source="/doctor.png"/>
+        <Button Content="Doktor Bilgileri" HorizontalAlignment="Left" Height="44" Margin="10,45,0,0" VerticalAlignment="Top" Width="166" Click="Button_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPFHastaneOtomasyon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFHastaneOtomasyon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="750">
+    <Grid>
+        <Button Content="Hasta" HorizontalAlignment="Left" Height="40" Margin="169,273,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.49,0.584" Click="Button_Click"/>
+        <Button Content="Doktor" HorizontalAlignment="Left" Height="40" Margin="464,273,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_1"/>
+        <Image HorizontalAlignment="Left" Height="120" Margin="154,0,0,0" VerticalAlignment="Center" Width="120" Source="/critical.png"/>
+        <Image HorizontalAlignment="Left" Height="120" Margin="454,0,0,0" VerticalAlignment="Center" Width="120" Source="/doctor.png"/>
+        <Label Content="Hastane Takip Ve Yönetim Sistemi" HorizontalAlignment="Center" Height="69" Margin="0,58,0,0" VerticalAlignment="Top" Width="412" HorizontalContentAlignment="Center" FontSize="24" FontFamily="Bahnschrift SemiBold" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
